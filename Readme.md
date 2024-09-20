@@ -65,19 +65,21 @@ JWT_SECRET: Secret key for JWT tokens.
 ## Docker Compose Up
 
 Build and start the services:
-bash
-Copy code
-docker-compose up --build
-The services will be available at:
-User & Client Service: http://localhost:8000
-Routine Maintenance Service: http://localhost:8001
+```
+    docker-compose up --build
+```
+
+``The services will be available at``:
+
+- User & Client Service: http://localhost:8000
+- Routine Maintenance Service: http://localhost:8001
 
 ## Services Overview
 
 ### User & Client Service
 
 > Description: Handles all user and client-related operations.
-> Technologies: FastAPI, PostgreSQL.
+> Technologies: FastAPI, MongoDB.
 
 
 - User & Client Service: http://localhost:8000/docs
